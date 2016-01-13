@@ -5,7 +5,7 @@
 
 #define EXPORT __attribute__((visibility("default")))
 
-class NSView;
+Q_FORWARD_DECLARE_OBJC_CLASS(NSView);
 
 extern "C" {
     EXPORT NSView *createQtApplicationView();
