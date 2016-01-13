@@ -37,10 +37,9 @@ Building this sample code
 
 1) Build and deploy QtApplication.framework
 
-    /path/to/qtbase/bin/qmake && make && /path/to/qtbase/bin/macdeployqt QtApplication.framework -deploy-framework -qt-from-macdeployqt
+    /path/to/qtbase/bin/qmake && make && /path/to/qtbase/bin/macdeployqt QtApplication.framework -deploy-framework
 
-[deploy-framework and qt-from-macdeployqt are undocumented research options
-available on newer versions of macdeployqt]
+[deploy-framework is an undocumented research option available on newer versions of macdeployqt]
 
 2) Jump through a hoop and set the correct LC_RPATH on the cocoa platform plugin
 
